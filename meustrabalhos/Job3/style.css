@@ -21,10 +21,12 @@ header a:hover{
     text-decoration: underline;
 }
 
-h1 {
-    text-align: center;
+header h1{
     padding: 15px;
     font-size: 2em;
+    width: 350px;
+    margin: auto;
+    text-align: center;
 }
 
 p#header{
