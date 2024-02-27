@@ -24,7 +24,7 @@ header a:hover{
 h1 {
     text-align: center;
     padding: 15px;
-    font-size: 3em;
+    font-size: 2em;
 }
 
 p#header{
@@ -43,6 +43,7 @@ main {
     min-width: 280px;
     margin: auto;
 }
+
 
 main p{
     margin: 15px;
