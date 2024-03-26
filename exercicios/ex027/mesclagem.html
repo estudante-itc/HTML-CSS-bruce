@@ -8,11 +8,11 @@
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
-            height: 100vh;
         }
 
         caption{
             text-align: center;
+            font-weight: bolder;
         }
 
         table{
@@ -21,8 +21,8 @@
             margin: auto;
         }
 
-        thead > tr > th{
-            position: sticky;
+        thead tr th{
+            position: static;
             top: -1px;
             background-color: lightgray;
         }
@@ -30,45 +30,40 @@
         td, th{
             border: 1px solid black;
             width: 200px;
-            padding: 5px;
+            padding: 10px;
         }
-
-        caption{
-                background-color: gray;
-                padding: 8px;
-            }
 
     </style>
 
 </head>
 <body>
-    
-    <h1>Mesclagem em tabelas</h1>
- 
-    <table>
 
-        <caption>Lista dos Melhores Dev´Moz </caption>
-        
+    <caption>Lista dos Melhores Dev´Moz </caption>
+    <table>
+         
         <thead >
             <tr>
-                <th>Dev name</th>
+                <th scope="col">Dev name</th>
                 <th>Dev Area</th>
                 <th>Dev Work</th>
             </tr>
         </thead>
         
+        <!-- Primeria linha -->
         <tr>
             <td>Caleb</td>
             <td>Dev Mobile</td>
             <td>Trabalha na alemanhã</td>
         </tr>
 
+        <!-- Segunda linha -->
         <tr>
             <td>Jeffer</td>
             <td>Dev Frontend</td>
             <td>Trabalha em Moçambique</td>
         </tr>
 
+        <!-- Terceira linha -->
         <tr>
             <td>Kiba</td>
             <td>Dev Backend</td>
